@@ -2,7 +2,7 @@ clc;
 Constants;
 
 %P_motor = Kt/((J*s+b)*(L*s+R)+Kt^2);  
-P_motor = Kt/(J*s*(L*s+R)+Kt^2);  
+P_motor = Kt/(((J*s + b)*(L*s+R))+Kt^2);  
 
 gain = 6859/421875; 
 
@@ -22,3 +22,5 @@ disp(response)
 %pidtool(P_motor*gain); 
 
 %---->settling time is 1.0019 and overshoot is %zero for now<------- 
+
+SimulinkIdeal

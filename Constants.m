@@ -11,7 +11,7 @@ Ke = 520;
 %(Kt)    motor torque constant (mNm A^-1)  
 Kt = 18.4;  
 
-%(R)     electric resistance (?)             
+%(R)     electric resistance (Ohm)             
 R = 3.69;  
 
 %(L)     electric inductance (mH)                  
